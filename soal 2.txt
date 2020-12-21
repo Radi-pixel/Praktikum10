@@ -1,0 +1,19 @@
+package org.d3ifcool.ima10;
+import java.util.*;
+
+public class TP02 {
+
+	public static void main(final String[] args) {
+		// Kerjakan soalnya di sini
+		Scanner input = new Scanner(System.in);
+
+		int bil = input.nextInt();
+		int factorial = 1;
+		if (bil <= 10 && bil >= 1) {
+			for (int i = 1; i <= bil; i++ ) {
+				factorial *= i;
+			}
+			System.out.println(factorial);
+		}
+	}
+}
