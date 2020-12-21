@@ -1,0 +1,21 @@
+package org.d3ifcool.ima10;
+import java.util.*;
+
+public class TP03 {
+
+	public static void main(final String[] args) {
+		// Kerjakan soalnya di sini
+		Scanner input = new Scanner(System.in);
+
+		int bil = input.nextInt();
+		for (int seluruh = 1; seluruh <= bil; seluruh++){
+			for (int kosong = (bil-1); kosong >= seluruh; kosong--) {
+				System.out.print(" ");
+			}
+			for (int isi = 1; isi <= seluruh; isi++) {
+				System.out.print('*');
+			}
+		System.out.println();
+		}
+	}
+}
